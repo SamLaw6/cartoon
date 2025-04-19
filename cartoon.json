@@ -1,0 +1,27 @@
+{
+  "spider": "https://www.xgcartoon.com/api.php/provide/vod/", 
+  "sites": [
+    {
+      "key": "xgcartoon",
+      "name": "XG动漫",
+      "type": 3,
+      "api": "https://www.xgcartoon.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": ["youku", "qq", "iqiyi", "mgtv"],
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Mobile Safari/537.36"
+        }
+      }
+    }
+  ]
+}
