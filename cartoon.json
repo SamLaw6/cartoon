@@ -1,10 +1,9 @@
 {
-  "spider": "https://www.xgcartoon.com/api.php/provide/vod/", 
   "sites": [
     {
       "key": "xgcartoon",
       "name": "XG动漫",
-      "type": 3,
+      "type": 1,
       "api": "https://www.xgcartoon.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
